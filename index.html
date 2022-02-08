@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <title>Rosemary Fine Dining</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Nunito+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="150">
+  <header>
+    <nav class="navbar navbar-custom navbar-expand-md fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#ravintola"><img src="images/rosemary_logo.svg" width="40" alt="Logo"></a>
+          <button class="navbar-toggler custom-toggler third-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#ravintola">Rosemary</a>
+              </li>
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menu</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#illallinen">Illallinen</a></li>
+                    <li><a class="dropdown-item" href="#lounas">Lounas</a></li>
+                    <li><a class="dropdown-item" href="#maistelumenu">Maistelumenu</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#viinit">Viinit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reseptit">Reseptit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#yhteystiedot">Yhteys</a>
+              </li>  
+            </ul>
+          </div>
+      </div>
+    </nav>
+  
+  <section id="carousel">
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/pexels-anna-nekrashevich-7214482-crop.jpg" alt="Leipää ja levitettä" class="d-block w-100">
+        <div class="carousel-caption">
+            <h2>Tule syömään meille</h2>
+            <p>Rosemary Fine Dining tarjoaa unohtumattomia makuelämyksiä</p>
+            <a href="#illallinen" class="btn btn-dark">Lue menu</a>
+          </div>  
+      </div>
+      <div class="carousel-item">
+        <img src="images/pexels-roman-odintsov-4553118-crop.jpg" alt="Suklaakakkua" class="d-block w-100">
+        <div class="carousel-caption">
+            <h2>Kokkimme parhaat vinkit</h2>
+            <p>Nauti hyvästä ruoasta kotona ja tee aikaisempien menujemme suosituimpia reseptejä itse</p>
+            <a href="#reseptit" class="btn btn-dark">Katso videot</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/pexels-terje-sollie-299348-crop.jpg" alt="Vasikkaa" class="d-block w-100">
+        <div class="carousel-caption">
+            <h2>Monia elämyksiä</h2>
+            <p>Maistelumenumme on rakennuttu kauden parhaista raaka-aineista</p>
+            <a href="#maistelumenu" class="btn btn-dark">Tutustu maistelumenuun</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+</header>
+      
+<main>
+  <div class="container">
+
+    <!-- Ravintola -->
+    <section id="ravintola">
+      <h1>Rosemary Fine Dining</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/pexels-brett-jordan-2297961-small.jpg" class="main-image" alt="Lounas">
+        </div>
+        <div class="col-md-4">
+          <article>
+          <h2>Esittely</h2>
+          <p>Rosemary Fine Dining on keskittynyt illallisiin, mutta meillä on myös laadukas lounasmenu. Raaka-aineemme ovat eettisiä, puhtaita ja paikallisia, ruoanlaittomme ja palvelumme on asiakasläheistä ja mutkatonta.</p>
+          <p>Illallinen meillä alkaa klo 18.30 pienillä alkupaloilla ja alkujuomilla. Menun tarjoilu alkaa n. klo 19.00 koko salille samanaikaisesti. Menun kesto on noin 3,5 tuntia.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <img src="images/pexels-daria-shevtsova-698857-small.jpg" class="main-image" alt="Illallinen">
+        </div>   
+      </div>
+    </section>
+
+    <!-- Menut -->  
+    <section id="menut">
+      <h2>Sesongin menut</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" id="illallinen">
+            <img src="images/pexels-daria-shevtsova-1030865-small.jpg" class="card-img-top" alt="Suklaakakku">
+            <div class="card-body">
+              <h5 class="card-title">Illallinen</h5>
+              <p class="card-text">Höyrytetty mantelivanukas, Umami-lohta, fermentoitua parsaa ja forellinmätiä</p>
+              <p class="card-text">Kampasimpukkaa, myskikurpitsaa ja vihreää mansikkaa</p>
+              <p class="card-text">Hunajalla ja luuytimellä glaseerattua briossia, kotimaista hanhenmaksaa, Frex-punajuurta ja vadelmaa</p>
+              <p class="card-text">Jäämeren turskaa, muikunmätiä ja tryffeliä</p>
+              <p class="card-text">Raakakypsytettyä kotimaista karitsaa, luumua ja sitruunatimjamia</p>
+              <p class="card-text">Paahdettua ja suolattua maissia, kotimaista päärynää</p>
+              <p class="card-text">Pieni makea</p>
+              <p class="card-text"><strong>Varaathan menun nauttimiseen kolme ja puoli tuntia. Menu on tarjolla koko illan ja viikonlopun päivällisellä.</strong></p>
+              <p class="card-text"><strong>Menu 119 € / vieras</strong><br>
+              Juomat 118 € / vieras<br>
+              Viinikellarin aarteet 168 € / vieras<br>
+              Alkoholittomat juomat 46 € / vieras
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" id="lounas">
+            <img src="images/pexels-trang-doan-793765-small.jpg" class="card-img-top" alt="Spagettia ja croisantteja">
+            <div class="card-body">
+              <h5 class="card-title">Lounas</h5>
+                <p class="card-text"><strong>Maanantai</strong><br>Höyrytetty rapuvanukas, umamilohta ja kombua</p>
+                <p class="card-text"><strong>Tiistai</strong><br>Kampasimpukkaa, tryffeliä ja simpukkalientä</p>
+                <p class="card-text"><strong>Keskiviikko</strong><br>Tryffelillä ja hunajalla glaseerattua briossia, kotimaista hanhenmaksaa ja punaisia marjoja</p>
+                <p class="card-text"><strong>Torstai</strong><br>Kuhaa, muikunmätiä, hummeria ja tryffeliä</p>
+                <p class="card-text"><strong>Perjantai</strong><br>Raakakypsytettyä viiriästä, tryffelikastiketta ja säilöttyä tattia</p>
+                <p class="card-text"><strong>Viikon jälkiruoka</strong><br>Kotimaista maissia, tryffeliä ja suklaata</p>
+                <p class="card-text"><strong>Lounas tarjoillaan klo 11.00-14.00. Varaa lounaan nauttimiseen noin 45 minuuttia. Isommille seurueille kannatta varata pöytä.</strong></p>
+                <p class="card-text"><strong>Lounas 32 € / vieras</strong><br>
+                Päivän viini tai olut 16 € / vieras<br>
+                Viinikellarin aarteet 22 € / vieras<br>
+                Alkoholittomat juomat 10 € / vieras</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" id="maistelumenu">
+            <img src="images/pexels-lina-kivaka-1813504-small.jpg" class="card-img-top" alt="Maistelumenu">
+            <div class="card-body">
+              <h5 class="card-title">Maistelumenu</h5>
+              <p class="card-text"><strong>Alkupalat</strong><br>Ahven-tempura, purjokermaa, marinoitua sipulia ja rakuuna-aiolia
+              <p class="card-text">Poronkäristys, puikulaperunapyree, sokeroitua karpaloa ja suolakurkkua
+              <p class="card-text"><strong>Pääruoat</strong><br>Haudutettua nieriää, savusimpukkarisottoa, jääfenkolia ja veriappelsiihollandaise
+              <p class="card-text">Grillattua naudan flank steak, suolapaahdettua selleriä, tattignoccheja ja marsalakastiketta
+              <p class="card-text"><strong>Jälkiruoka</strong><br>Maitosuklaa pannacotta, tyrnisorbettia ja rapeaa hunajaa
+              <p class="card-text"><strong>Varaathan maistelumenun nauttimiseen kolme ja puoli tuntia. Menu on tarjolla ennakkotilauksesta illallisella.</strong></p>
+              <p class="card-text"><strong>Maistelumenu 132 € / vieras</strong><br>
+              Juomat 118 € / vieras<br>
+              Viinikellarin aarteet 168 € / vieras<br>
+              Alkoholittomat juomat 46 € / vieras</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <!-- Viinit -->
+    <section id="viinit">
+      <h2>Viinilista</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="punaviinit">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#punaviini-lista" aria-expanded="true" aria-controls="punaviini-lista">
+                  Punaviinit
+                </button>
+              </h2>
+              <div id="punaviini-lista" class="accordion-collapse collapse" aria-labelledby="punaviinit" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h5>Le Roc de Château Puybarbe</h5>
+                  <p>AC Cotes de Bourg, France<br>
+                  Cabernet Franc, Cabernet Sauvignon, Malbec, Merlot<br><strong>14,30 / 68,00</strong></p>
+                  <h5>Gérard Bertrand Domaine de l’Aigle Pinot Noir</h5>
+                  <p>Languedoc – IGP Haute Vallée de l’Aude, France
+                  Pinot Noir<br><strong>15,20 / 72,00</strong></p>
+                  <h5>Olivier Ravoire Chateauneuf-du-Pape</h5>
+                  <p>AC Chateauneuf-du-Pape, France<br>
+                  Grenache, Syrah<br><strong>86,00</strong></p>
+                  <h5>Borgo Salcetino Chianti Classico</h5>
+                  <p>DOCG Chianti Classico, Italy<br>
+                  Sangiovese, Canaiolo<br><strong>12,40 / 59,00</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="valkoviinit">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#valkoviini-lista" aria-expanded="false" aria-controls="valkoviini-lista">
+                  Valkoviinit
+                </button>
+              </h2>
+              <div id="valkoviini-lista" class="accordion-collapse collapse" aria-labelledby="valkoviinit" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h5>William Fevre Petit Chablis</h5>
+                  <p>AOC Chablis, France<br>
+                  Chardonnay<br><strong>14,10 / 65,00</strong></p>
+                  <h5>Domaines Schlumberger Gewurtztraminer</h5>
+                  <p>AC Alsace, France<br>
+                  Gewurtztraminer<br><strong>56,00</strong></p>
+                  <h5>De Ladoucette Pouilly-Fumé</h5>
+                  <p>AC Pouilly-Fumé, France<br>
+                  Sauvignon Blanc<br><strong>79,00</strong></p>
+                  <h5>Floralba Pinot Grigio</h5>
+                  <p>Sicily, Italy<br>
+                  Pinot Grigio<br><strong>9,50 / 45,00</strong></p>
+                  <h5>Fontanafredda Gavi di Gavi</h5>
+                  <p>DOCG Gavi, Italy<br>
+                  Cortese<br><strong>13,50 / 64,00</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="jalkiruokaviinit">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#jalkiruokaviini-lista" aria-expanded="false" aria-controls="jalkiruokaviini-lista">
+                  Jälkiruokaviinit
+                </button>
+              </h2>
+              <div id="jalkiruokaviini-lista" class="accordion-collapse collapse" aria-labelledby="jalkiruokaviinit" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h5>Dreissigacker Riesling Auslese</h5>
+                  <p>Rheinhessen, Germany<br>
+                  Riesling<br><strong>13,50</strong></p>
+                  <h5>Tommasi Fiorato Recioto della Valpolicella</h5>
+                  <p>Veneto, Italy<br>
+                  Corvina, Rondinella, Molinara<br><strong>12,50</strong></p>
+                  <h5>Torres Floralis Moscatel Oro</h5>
+                  <p>Catalonia, España
+                  Moscatel<br><strong>8,00</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="kuohuviinit">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#kuohuviini-lista" aria-expanded="false" aria-controls="kuohuviini-lista">
+                  Samppanjat ja kuohuviinit
+                </button>
+              </h2>
+              <div id="kuohuviini-lista" class="accordion-collapse collapse" aria-labelledby="kuohuviinit" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h5>Can Vendrell Cava Brut</h5>
+                  <p>DO Cava, Españja<br>
+                  Rypäle: Macabeu, Xarel.lo, Parellada<br><strong>7,90 / 49,00</strong></p>
+                  <h5>Alberto Nani Prosecco Organic</h5>
+                  <p>DOP Veneto, Italia<br>
+                  Rypäle: Glera<br><strong>7,50 / 47,00</strong></p>
+                  <h5>Gustav Lorentz Crémant Rosé</h5>
+                  <p>AC Alsace, Ranska
+                  Rypäle: Pinot Noir<br><strong>10,30 / 64,00</strong></p>
+                  <h5>Charles Hiedsieck Brut Réserve</h5>
+                  <p>AC Champagne, Ranska<br>
+                  Rypäle: Pinot Noir, Pinot Meunier, Chardonnay<br><strong>15,20 / 95,00</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reseptit -->
+    <section id="reseptit">
+      <h2>Reseptit</h2>
+      <!-- Tabit -->
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-tabs" id="video-tab">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" href="#alkupalat">Alkupalat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#paaruoat">Pääruoat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#jalkiruoat">Jälkiruoat</a>
+            </li>
+          </ul>
+          <!-- Tabien sisältö -->
+          <div class="tab-content">
+              <div class="tab-pane container active" id="alkupalat">
+                <div class="ratio ratio-16x9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9vy2yPfNsms"></iframe>
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="paaruoat">
+                <div class="ratio ratio-16x9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IR-hJcnExyI"></iframe>
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="jalkiruoat">
+                <div class="ratio ratio-16x9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w3vpLKqnhCk"></iframe>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- yhteystiedot -->
+    <section id="yhteystiedot">
+      <h2>Yhteystiedot</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">          
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nimi</th>
+                <th>Tehtävä</th>
+                <th>Sähköposti</th>
+                <th>Puhelin</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Martti Nieminen</td>
+                <td>Ravintolapäällikkö</td>
+                <td>martti.nieminen@rosemary.fi</td>
+                <td>040 724 8576</td>
+              </tr>
+              <tr>
+                <td>Ilkka Vesterinen</td>
+                <td>Kokki</td>
+                <td>ilkka.vesterinen@rosemary.fi</td>
+                <td>040 357 8354</td>
+              </tr>
+              <tr>
+                <td>Saija Alanko</td>
+                <td>Hovimestari</td>
+                <td>saija.alanko@rosemary.fi</td>
+                <td>050 634 8956</td>
+              </tr>
+              <tr>
+                <td>Miisa Rautavaara</td>
+                <td>Salivastaava</td>
+                <td>miisa.rautavaara@rosemary.fi</td>
+                <td>041 894 2343</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>  
+      </div>
+    </section>
+    <!-- palautelomake -->
+    <section id="laheta-palaute">
+      <h2>Palaute</h2>
+      <form onsubmit="return false" id="palautelomake" class="needs-validation" novalidate>
+        <div class="row">
+          <!-- henkilötiedot -->
+          <div class="col-md-6 mb-3">
+            <label for="etunimi" class="form-label">Etunimi</label>
+            <input type="text" class="form-control" name="etunimi" id="etunimi" required>
+            <div class="valid-feedback">
+              Hyvältä näyttää!
+            </div>
+            <div class="invalid-feedback">
+              Täytä etunimi.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="sukunimi" class="form-label">Sukunimi</label>
+            <input type="text" class="form-control" name="sukunimi" id="sukunimi" required>
+            <div class="valid-feedback">
+              Hyvältä näyttää!
+            </div>
+            <div class="invalid-feedback">
+              Täytä sukunimi.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- yhteystiedot -->
+          <div class="col-md-6 mb-3">
+            <label for="sahkoposti" class="form-label">Sähköposti</label>
+            <input type="email" class="form-control" name="sahkoposti" id="sahkoposti" required>
+            <div class="valid-feedback">
+              Hyvältä näyttää!
+            </div>
+            <div class="invalid-feedback">
+              Täytä kelvollinen sähköpostiosoite.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="puhelin" class="form-label">Puhelin</label>
+            <input type="tel" class="form-control" name="puhelin" id="puhelin" required pattern="\+?[0-9 () \-]+">
+            <div class="valid-feedback">
+              Hyvältä näyttää!
+            </div>
+            <div class="invalid-feedback">
+              Puhelinnumeron pitää olla muotoa (+)numero 0-9. Sallitut merkit +,- ja numerot 0-9.
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <!-- palaute -->
+          <div class="col-md-12">
+            <label for="palaute" class="form-label">Palaute</label>
+            <textarea class="form-control" id="palaute" style="height: 100px" required></textarea>
+            <div class="valid-feedback">
+              Kiitos palautteestasi!
+            </div>
+            <div class="invalid-feedback">
+              Täytä palautteesi, lähetä kysymys tai tee pöytävaraus.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- arvio -->
+          <div class="col-md-4">
+            <div class="mb-3">
+              <label class="form-label">Arvio ravintolastamme</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="erittain-hyva" name="arvio" value="Erittain hyvä">
+                <label class="form-label basic" for="erittain-hyva">Erittäin hyvä</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="hyva" name="arvio" value="Hyvä">
+                <label class="form-label basic" for="hyva">hyvä</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="ei-hyva-ei-huono" name="arvio" value="Ei hyvä eikä huono">
+                <label class="form-label basic" for="ei-hyva-ei-huono">Ei hyvä eikä huono</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="huono" name="arvio" value="Huono">
+                <label class="form-label basic" for="huono">Huono</label>
+              </div>
+            </div>
+          </div>
+          <!-- toiveruoka -->
+          <div class="col-md-4">
+            <div class="mb-3">
+              <label class="form-label">Mitä halausit syödä?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="riistaa" name="ruokatoive" value="riistaa">
+                <label class="form-label basic" for="riistaa">Riistaa</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="kalaa" name="ruokatoive" value="kalaa">
+                <label class="form-label basic" for="kalaa">Kalaa</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="kasviksia" name="ruokatoive" value="kasviksia">
+                <label class="form-label basic" for="kalaa">kasviksia</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="maksaa" name="ruokatoive" value="maksaa">
+                <label class="form-label basic" for="maksaa">Maksaa</label>
+              </div>
+            </div>
+          </div>
+          <!-- arvio nettisivuista -->
+          <div class="col-md-4">
+            <div class="mb-3">
+              <label class="form-label" for="kaynti">Oletko vieraillut meillä aiemmin?</label>
+              <select class="form-select" name="kaynti" id="kaynti" required>
+                <option selected disabled value="">Valitse</option>
+                <option value="kylla">Kyllä</option>
+                <option value="en">En</option>
+              </select>
+              <div class="valid-feedback">
+                Hyvältä näyttää!
+              </div>
+              <div class="invalid-feedback">
+                Valitse vaihtoehto.
+              </div>
+          </div>
+        </div>
+      </div>
+        <div class="row mb-3">
+          <div class="col-12">
+            <input class="btn btn-secondary me-3" type="reset" value="Tyhjennä"><input class="btn btn-dark me-3" type="submit" value="Lähetä">
+          </div>
+        </div>
+      </form>
+    </section>
+    <section id="vastaus">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="lomakkeen-tiedot">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- footer, linkit ja logo -->
+<footer class="py-3 mt-5 mb-0">
+    <ul class="nav justify-content-center py-3 mb-0">
+      <li class="nav-item"><a href="#ravintola" class="nav-link">Ravintola</a></li>
+      <li class="nav-item"><a href="#menut" class="nav-link">Menu</a></li>
+      <li class="nav-item"><a href="#viinit" class="nav-link">Viinit</a></li>
+      <li class="nav-item"><a href="#reseptit" class="nav-link">Reseptit</a></li>
+      <li class="nav-item"><a href="#yhteys" class="nav-link">Yhteys</a></li>
+    </ul>
+    <p class="text-center"><img src="images/rosemary_logo.svg" width="60" class="mb-3" alt="Logo"><br>© 2021 Rosemary Fine Dining</p>
+</footer>
+
+<script src="form.js"></script>
+
+</body>
+</html>
